@@ -9,7 +9,7 @@ export default function Search() {
     const query = queryParams.get('q')
 
     // const url = 'http://localhost:3000/recipes?q=' + query
-    const url = 'https://recipe-book-qidex93es-nickgolitsyn.vercel.app/recipes' + query
+    const url = 'https://my-json-server.typicode.com/NickGolitsyn/json-server-recipe-book/recipes' + query
     const {error, isPending, data} = useFetch(url)
 
     return (

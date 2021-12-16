@@ -4,7 +4,7 @@ import './Home.css'
 
 export default function Home() {
     // const { data, isPending, error } = useFetch('http://localhost:3000/recipes')
-    const { data, isPending, error } = useFetch('https://recipe-book-qidex93es-nickgolitsyn.vercel.app/recipes')
+    const { data, isPending, error } = useFetch('https://my-json-server.typicode.com/NickGolitsyn/json-server-recipe-book/recipes')
     return (
         <div className="home">
             {error && <p className="error">{error}</p>}
